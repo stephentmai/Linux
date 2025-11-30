@@ -27,7 +27,7 @@
 | /lost+found |       文件系统恢复区，存放丢失的文件碎片        |
 
 # 安装软件的方法
-<div style="text-align: center;">常见的Yum命令</div>
+<div style="text-align: left;">常见的Yum命令</div>
 
 |             命令              |       作用       |
 |:---------------------------:|:--------------:|
@@ -46,7 +46,7 @@
 |     yum groupinfo 软件包组      |  查询指定的软件包组信息   |
 
 # 配置服务的方法
-<div style="text-align: center;">服务等常用命令</div>
+<div style="text-align: left;">服务等常用命令</div>
 
 |                  命令                   |        作用         |
 |:-------------------------------------:|:-----------------:|
@@ -80,7 +80,7 @@
 |     d     |        向下滚动半页         |
 |     q     |        退出帮助文档         |
 
-<div style="text-align: center;">man命令中帮助信息的结构以及意义</div>
+<div style="text-align: left;">man命令中帮助信息的结构以及意义</div>
 
 |     结构      |     代表意义     |
 |:-----------:|:------------:|
@@ -96,7 +96,7 @@
 |  SEE ALSO   |    相关的资料     |
 |   HISTORY   |  维护历史与联系方式   |
 
-<div style="text-align: center;">Linux中快捷键</div>
+<div style="text-align: left;">Linux中快捷键</div>
 
 <kbd>**Tab**</kbd>自动补全命令
 
@@ -141,7 +141,7 @@
 **date命令**<br>
 date命令用于显示或设置系统的时间与日期，语法格式为date"[+指定的格式]"。
 
-<div style="text-align: center;">date命令中的参数及其作用</div>
+<div style="text-align: left;">date命令中的参数及其作用</div>
 
 | 参数 |          作用          |
 |:--:|:--------------------:|
@@ -168,7 +168,7 @@ date命令用于显示或设置系统的时间与日期，语法格式为date"[+
 2020-09-05 09:14:35
 ```
 
-<div style="text-align: center;">Linux系统中的通配符及含义</div>
+<div style="text-align: left;">Linux系统中的通配符及含义</div>
 
 |     通配符     |   含义    |
 |:-----------:|:-------:|
@@ -189,7 +189,7 @@ date命令用于显示或设置系统的时间与日期，语法格式为date"[+
 双引号（""）：保留其中的变量属性，不进行转义处理。
 反引号（``）：把其中的命令执行后返回结果。
 
-<div style="text-align: center;">Linux系统中最重要的10个环境变量</div>
+<div style="text-align: left;">Linux系统中最重要的10个环境变量</div>
 
 |     变量名称     |        作用        |
 |:------------:|:----------------:|
