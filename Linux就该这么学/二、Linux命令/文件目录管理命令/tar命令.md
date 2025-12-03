@@ -89,3 +89,34 @@ tar --exclude scf/service -zcvf scf.tar.gz scf/*
 压　缩：tar -jcv -f filename.tar.bz2 要被压缩的文件或目录名称<br>
 查　询：tar -jtv -f filename.tar.bz2<br>
 解压缩：tar -jxv -f filename.tar.bz2 -C 欲解压缩的目录<br>
+一般使用“tar –czvf 压缩包名称.tar.gz 要打包的目录”命令把指定的文件进行打包压缩；相应的解压命令为“tar –xzvf 压缩包名称.tar.gz”。下面我们逐个演示打包压缩与解压的操作，先使用 tar 命令把/etc 目录以.gzip 格式进行打包压缩，并把文件命名为 etc.tar.gz：
+
+```shell
+root@linuxprobe:~# tar czvf etc.tar.gz /etc
+tar: Removing leading `/' from member names
+/etc/
+/etc/mtab
+/etc/fstab
+/etc/crypttab
+/etc/lvm/
+/etc/lvm/devices/
+/etc/lvm/devices/system.devices
+/etc/lvm/archive/
+………………省略部分输出信息………………
+```
+
+接下来将打包后的压缩文件指定解压到/root/etc 目录中（先使用 mkdir 命令创建/root/etc 目录）：
+
+```shell
+root@linuxprobe:~# mkdir /root/etc
+root@linuxprobe:~# tar xzvf etc.tar.gz -C /root/etc
+etc/
+etc/mtab
+etc/fstab
+etc/crypttab
+etc/lvm/
+etc/lvm/devices/
+etc/lvm/devices/system.devices
+etc/lvm/archive/
+………………省略部分输出信息………………
+```
