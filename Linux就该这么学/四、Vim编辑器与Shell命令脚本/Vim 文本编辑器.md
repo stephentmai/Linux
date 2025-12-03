@@ -263,3 +263,4 @@ Installed:
 
 Complete!
 ```
+对于习惯使用 yum 命令来安装软件的同学，也不需要有压力，因为你依然可以使用 yum install httpd 命令来安装软件，只是将 dnf 替换成 yum。可见，RHEL 10 版本很好地兼容了用户习惯。
